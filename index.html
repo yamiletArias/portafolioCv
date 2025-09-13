@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deyanira Arias - Portfolio</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="floating-particles" id="particles"></div>
+
+  <header>
+    <nav class="container">
+      <div class="logo">Deyanira Arias</div>
+      <ul class="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#education">Educación</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-sun"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="profile-section">
+            <div class="profile-img">
+              <img src="assets/img/profile1.jpg" alt="Deyanira Chacaliaza"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="profile-placeholder">💜</div>
+            </div>
+          </div>
+
+          <div class="hero-text">
+            <h1>Deyanira Yamilet Chacaliaza Arias</h1>
+            <p class="subtitle">Ingeniera de Software con Inteligencia Artificial</p>
+            <p class="hero-description">
+              Recien egresada con ganas de experimentar el mundo laboral en la tecnologia,
+              con amplios conocimientos en desarrollo de backend y frontend.
+              Soy una persona con gran capacidad para aprender rápidamente. Motivada por 
+              la innovación y el compromiso con la excelencia.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">
+                <i class="fas fa-envelope"></i>
+                ¡Contáctame!
+              </a>
+              <a href="#" class="btn btn-secondary" download>
+                <i class="fas fa-download"></i>
+                Descargar CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Sobre mí</h2>
+        <div
+          style="max-width: 800px; margin: 0 auto; text-align: center; font-size: 1.1rem; color: var(--text-secondary);">
+          <p>
+            Soy una persona dedicada de Ingeniería de Software con Inteligencia Artificial,
+            actualmente soy egresada en SENATI. Mi pasión por la tecnología me impulsa
+            a estar en constante aprendizaje y crecimiento profesional.
+          </p>
+          <br>
+          <p>
+            Me caracterizo por mi capacidad de trabajo en equipo, innovación y adaptabilidad.
+            Tengo experiencia práctica en desarrollo web y manejo de tecnologías modernas,
+            siempre buscando crear soluciones eficientes y creativas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Lenguajes de Programación</h3>
+            <div class="skills-list">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">PHP</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-palette"></i> Frontend & Design</h3>
+            <div class="skills-list">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">CDNJS</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-users"></i> Habilidades Blandas</h3>
+            <div class="skills-list">
+              <span class="skill-tag">Trabajo en equipo</span>
+              <span class="skill-tag">Liderazgo</span>
+              <span class="skill-tag">Comunicación</span>
+              <span class="skill-tag">Adaptabilidad</span>
+              <span class="skill-tag">Innovación</span>
+              <span class="skill-tag">Responsabilidad</span>
+            </div>
+          </div>
+
+          <!-- <div class="skill-category">
+            <h3><i class="fas fa-brain"></i> Inteligencia Artificial</h3>
+            <div class="skills-list">
+              <span class="skill-tag">Machine Learning</span>
+              <span class="skill-tag">IA</span>
+              <span class="skill-tag">Análisis de Datos</span>
+            </div>
+          </div> -->
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <div class="timeline">
+
+          <!-- TERCER SEMESTRE -->
+          <div class="timeline-item">
+            <div class="timeline-date">Febrero - Junio 2025</div>
+            <div class="timeline-title">Desarrollo de software  </div>
+            <div class="timeline-company">Yonda - Motorpark</div>
+            <p>FIX360 TESTRAÑUUU</p>
+          </div>
+
+          <!-- SEGUNDO SEMESTRE -->
+          <div class="timeline-item">
+            <div class="timeline-date">Agosto - Diciembre 2024</div>
+            <div class="timeline-title">Desarrolladora de Software</div>
+            <div class="timeline-company">VAMAS - Empresa de Tecnología de la Información</div>
+            <p>Desarrollo y mantenimiento de soluciones tecnológicas innovadoras,
+              trabajando con tecnologías modernas y metodologías ágiles.</p>
+          </div>
+
+          <!-- PRIMER SEMESTRE -->
+          <div class="timeline-item">
+            <div class="timeline-date">Febrero - Junio 2024</div>
+            <div class="timeline-title">Desarrolladora Web</div>
+            <div class="timeline-company">CREATOR - Empresa de Arquitectura e Implementación de Tecnología</div>
+            <p>Diseño y desarrollo de páginas web profesionales, enfocándome en
+              arquitecturas escalables y experiencias de usuario excepcionales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Educación</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2022 - 2025</div>
+            <div class="timeline-title">Ingeniería de Software con Inteligencia Artificial</div>
+            <div class="timeline-company">SENATI - Servicio Nacional de Adiestramiento Industrial</div>
+            <p>Egresada Superior</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2018 - 2022</div>
+            <div class="timeline-title">Educación Secundaria</div>
+            <div class="timeline-company">I.E.P. JEC Simón Bolivar</div>
+            <p>Formación académica</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2012 - 2017</div>
+            <div class="timeline-title">Educación Primaria</div>
+            <div class="timeline-company">I.E.P. Leonard Euler / I.E.P. 22228</div>
+            <p>Formación académica</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-grid">
+          <a href="mailto:deya.meme.08@gmail.com" class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>deya.meme.08@gmail.com</p>
+            </div>
+          </a>
+
+          <a href="tel:+51919629135" class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <h3>Teléfono</h3>
+              <p>+51 919 629 135</p>
+            </div>
+          </a>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h3>Ubicación</h3>
+              <p>Av. San Martin 167<br>Chincha, Ica, Perú</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-language"></i>
+            </div>
+            <div>
+              <h3>Idiomas</h3>
+              <p>Español (Nativo)<br>Inglés (Intensivo NV-IV)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
